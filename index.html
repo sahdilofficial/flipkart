@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <style>
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+    </style>
+    <div class="container-fluid p-0">
+      <div
+        class="d-flex justify-content-center"
+        style="background-color: blue; height: 70px; width: 100vw"
+      >
+        <div
+          class="d-flex flex-row"
+          style="width: 85vw; height: 70px; background-color: blue"
+        >
+          <div class="d-flex flex-column">
+            <div>
+              <img
+                src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                width="70px "
+              />
+            </div>
+            <div>
+              <span style="color: white">Explore</span>
+              <span style="color: #ffe11b"
+                >plus
+                <img
+                  src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
+                  width="10px"
+              /></span>
+            </div>
+          </div>
+          <div class="m-2">
+            <input type="text" style="height: 35px; width: 400px" /><i
+              class="bi bi-search"
+              style="position: absolute; left: 565px; top: 15px"
+            ></i>
+          </div>
+          <div class="d-flex justify-content-between m-3">
+            <div>
+              <span><a href="#" style="color: white">login</a></span>
+            </div>
+          </div>
+          <div class="m-3">
+            <div>
+              <span><a href="#" style="color: white">become a seller</a></span>
+            </div>
+          </div>
+          <div class="m-3">
+            <div>
+              <span><a href="#" style="color: white">more</a></span>
+            </div>
+          </div>
+          <div class="m-3">
+            <div>
+              <span><a href="#" style="color: white">cart</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-center"
+        style="background-color: blueviolet; height: 40px; width: 100vw"
+      >
+        <div
+          class="d-flex flex-row justify-content-around"
+          style="width: 100vw; height: 40px; background-color: white"
+        >
+          <div class="m-2 d-flex justify-content-around">
+            <a href="" style="color: black"> Electonics </a>
+          </div>
+          <div class="m-2">
+            <a href="" style="color: black"> Tv&Appliances </a>
+          </div>
+          <div class="m-2">
+            <a href="" style="color: black"> men </a>
+          </div>
+          <div class="m-2">
+            <a href="" style="color: black"> women</a>
+          </div>
+          <div class="m-2">
+            <a href="" style="color: black"> baby&kids </a>
+          </div>
+          <div class="m-2">
+            <a href="" style="color: black"> home&furniture </a>
+          </div>
+          <div class="m-2">
+            <a href="" style="color: black">sports,books&more </a>
+          </div>
+          <div class="m-2">
+            <a href="" style="color: black"> flight </a>
+          </div>
+          <div class="m-2">
+            <a href="" style="color: black"> offer zone </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="d-flex justify-content-around"
+        style="width: 100vw; background-color: white"
+      >
+        <div style="background-color: white; height: 100vh; width: 300px">
+          <div class="m-2">
+            <span style="font-size: xx-large; font-weight: 500"> Filters </span
+            ><br />
+          </div>
+          <div class="m-3 d-flex flex-column" style="font-size: 30px">
+            <span> categories </span>
+            <span style="font-size: 20px"> vehicle </span>
+            <span> bike & scoooter</span>
+          </div>
+
+          <div class="m-4">
+            <img
+              src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png"
+              width="100px"
+            />
+          </div>
+
+          <div class="m-3" style="font-size: 30px"><span>brand </span></div>
+          <div class="m-3" style="font-size: 30px">
+            <span>customer rating</span>
+          </div>
+          <div class="m-3" style="font-size: 30px"><span> offer</span></div>
+        </div>
+        <div
+          class="d-flex flex-wrap"
+          style="background-color: white; width: 900px"
+          id="products"
+        >
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://rukminim1.flixcart.com/image/612/612/xif0q/electric-bike-scooter/r/a/l/-original-imaggcdwknzgbwqa.jpeg?q=70"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                HERO Passion XTEC Drum Booking for Ex-showroom Price (Black)
+              </h5>
+              <p class="card-text">77,500</p>
+              <a href="#" class="btn btn-primary">buy now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function createproductcard(p) {
+        return (
+          ' <div class="card" style="width: 18rem;">\
+                        <img src="' +
+          p.imageUrl +
+          '" class="card-img-top" alt="..."> \
+                        <div class="card-body"> \
+                          <h5 class="card-title">' +
+          p.discription +
+          '</h5> \
+                          <p class="card-text">' +
+          p.price +
+          '</p> \
+                          <a href="#" class="btn btn-primary">buy now</a> \
+                        </div>'
+        );
+      }
+      var products = [
+        {
+          imageUrl:
+            "https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/8/n/i/-original-imaggcdwr2fbmxeg.jpeg?q=70",
+          price: "₹1,37,496",
+          discription:
+            "HERO Xpulse 200 4V Booking for Ex-showroom Price (Matt Nexus Blue)",
+        },
+        {
+          imageUrl:
+            "https://rukminim1.flixcart.com/image/312/312/xif0q/electric-bike-scooter/k/i/8/-original-imagjybzcypmnv6r.jpeg?q=70",
+          price: "₹1,28,608",
+          discription:
+            "HERO XTREME 160R STEALTH 2.0 Booking for Ex-showroom Price (Matt ...",
+        },
+        {
+          imageUrl:
+            "https://rukminim1.flixcart.com/image/312/312/xif0q/electric-bike-scooter/y/p/p/-original-imaggcdwptdgfm8t.jpeg?q=70",
+          price: "₹82,568",
+          discription:
+            "HERO Destini 125 Drum Booking for Ex-showroom Price (Nexus Blue)",
+        },
+        {
+          imageUrl:
+            "https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/n/f/n/-original-imaggcdvwmthtxxx.jpeg?q=70",
+          price: "₹82,346",
+          discription:
+            "HERO Maestro Edge 125 Disc Booking for Ex-showroom Price (Panther Black)",
+        },
+        {
+          imageUrl:
+            "https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/3/z/y/-original-imaggcjzfxht8z8q.jpeg?q=70",
+          price: "₹75,668",
+          discription:
+            "HERO Pleasure+ XTEC Drum Booking for Ex-showroom Price (Pole Star Blue)",
+        },
+      ];
+      for (var i = 0; i < products.length; i++) {
+        document.getElementById("products").innerHTML =
+          document.getElementById("products").innerHTML +
+          createproductcard(products[i]);
+      }
+    </script>
+  </body>
+</html>
